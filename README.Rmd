@@ -17,14 +17,13 @@ knitr::opts_chunk$set(
 
 # ColourSauce: Colours From The Sauce
 
-<p align="center">
 *You buy you some orange, how long's that going to last in your fridge? Couple days, maybe? That's the juice. How long does BBQ sauce last in your fridge? A while. That's the sauce, man. It sticks around. It's thick, hard to move.*
 
+<p align="center">
 ![](figure/kermit.gif){#id .class width=150% height=100%}
+</p>
 
 > Does picking the right colours stress you? No worries mate, I got you!
-
-</p>
 
 These are are some hand picked colour palettes I've chosen to spice them boring plots to something everyone can get around! This package was inspired by the [WesAnderson package](https://github.com/karthik/wesanderson) which derived it's colour palette from the amazing Tumblr blog [Wes Anderson Palettes.](http://wesandersonpalettes.tumblr.com/)
 
