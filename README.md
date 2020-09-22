@@ -52,7 +52,7 @@ A show case of the palettes by category of inspiration.
 #### Spiderman (1967)
 
 <p align="center">
-<img src="figure/spiderman.gif" id="id" class="class" style="width:150.0%;height:100.0%" />
+<img src="figure/spiderman.gif" id="id" class="class" width="480" height="264" />
 </p>
 
 ``` r
