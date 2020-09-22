@@ -17,13 +17,16 @@ knitr::opts_chunk$set(
 
 # ColourSauce: Colours From The Sauce
 
+*You buy you some orange, how long's that going to last in your fridge? Couple days, maybe? That's the juice. How long does BBQ sauce last in your fridge? A while. That's the sauce, man. It sticks around. It's thick, hard to move.*
 
-<iframe src="https://giphy.com/embed/Lcn0yF1RcLANG" width="480" height="361" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/food-ahead-upcoming-Lcn0yF1RcLANG">via GIPHY</a></p>
+![](figure/kermit.gif)
 
 
-> I saved you from boring plots. What did you ever do? - Max Fischer (probably)
+> Does picking the right colours stress you? No worries mate, I got you! - CodeByHarri 
 
-Tired of generic mass produced palettes for your plots? Short of adding an owl and dressing up your plot in a bowler hat, here's the most indie thing you can do to one. First round of palettes derived from the amazing Tumblr blog [Wes Anderson Palettes.](http://wesandersonpalettes.tumblr.com/)
+Do you ever get tired of seeing the same 10 colours regurgitated on ggplot. Yeah same. These are are some hand picked colour palettes I've chosen to spice them boring plots to something everyone can get around! 
+
+This package was inspired by the [WesAnderson package](https://github.com/karthik/wesanderson) which derived it's colour palette from the amazing Tumblr blog [Wes Anderson Palettes.](http://wesandersonpalettes.tumblr.com/).
 
 
 ## Installation
