@@ -41,7 +41,7 @@ devtools::install_github("CodeByHarri/ColourSauce")
 library("wesanderson")
 
 # See all palettes
-names(wes_palettes)
+names(cs_palettes)
 ```
 
 ## Palettes
