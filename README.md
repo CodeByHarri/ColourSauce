@@ -3,15 +3,18 @@
 ColourSauce: Colours From The Sauce
 ===================================
 
+<p align="center">
+
 *You buy you some orange, how long’s that going to last in your fridge?
 Couple days, maybe? That’s the juice. How long does BBQ sauce last in
 your fridge? A while. That’s the sauce, man. It sticks around. It’s
 thick, hard to move.*
-<p align="center">
+
 <img src="figure/kermit.gif" id="id" class="class" style="width:150.0%;height:100.0%" />
-</p>
 
 > Does picking the right colours stress you? No worries mate, I got you!
+
+</p>
 
 These are are some hand picked colour palettes I’ve chosen to spice them
 boring plots to something everyone can get around! This package was
