@@ -8,10 +8,9 @@ Couple days, maybe? That’s the juice. How long does BBQ sauce last in
 your fridge? A while. That’s the sauce, man. It sticks around. It’s
 thick, hard to move.*
 
-![](figure/kermit.gif)
+<img src="figure/kermit.gif" id="id" class="class" style="width:150.0%;height:150.0%" />
 
 > Does picking the right colours stress you? No worries mate, I got you!
-> - CodeByHarri
 
 Do you ever get tired of seeing the same 10 colours regurgitated on
 ggplot. Yeah same. These are are some hand picked colour palettes I’ve
@@ -20,19 +19,13 @@ chosen to spice them boring plots to something everyone can get around!
 This package was inspired by the [WesAnderson
 package](https://github.com/karthik/wesanderson) which derived it’s
 colour palette from the amazing Tumblr blog [Wes Anderson
-Palettes.](http://wesandersonpalettes.tumblr.com/).
+Palettes.](http://wesandersonpalettes.tumblr.com/)
 
 Installation
 ------------
 
 ``` r
-install.packages("wesanderson")
-```
-
-**Or the development version**
-
-``` r
-devtools::install_github("karthik/wesanderson")
+devtools::install_github("CodeByHarri/ColourSauce")
 ```
 
 Usage

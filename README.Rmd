@@ -19,26 +19,20 @@ knitr::opts_chunk$set(
 
 *You buy you some orange, how long's that going to last in your fridge? Couple days, maybe? That's the juice. How long does BBQ sauce last in your fridge? A while. That's the sauce, man. It sticks around. It's thick, hard to move.*
 
-![](figure/kermit.gif)
+![](figure/kermit.gif){#id .class width=150% height=150%}
 
 
-> Does picking the right colours stress you? No worries mate, I got you! - CodeByHarri 
+> Does picking the right colours stress you? No worries mate, I got you!
 
 Do you ever get tired of seeing the same 10 colours regurgitated on ggplot. Yeah same. These are are some hand picked colour palettes I've chosen to spice them boring plots to something everyone can get around! 
 
-This package was inspired by the [WesAnderson package](https://github.com/karthik/wesanderson) which derived it's colour palette from the amazing Tumblr blog [Wes Anderson Palettes.](http://wesandersonpalettes.tumblr.com/).
+This package was inspired by the [WesAnderson package](https://github.com/karthik/wesanderson) which derived it's colour palette from the amazing Tumblr blog [Wes Anderson Palettes.](http://wesandersonpalettes.tumblr.com/)
 
 
 ## Installation
 
 ```r
-install.packages("wesanderson")
-```
-
-__Or the development version__
-
-```r
-devtools::install_github("karthik/wesanderson")
+devtools::install_github("CodeByHarri/ColourSauce")
 ```
 
 ## Usage
