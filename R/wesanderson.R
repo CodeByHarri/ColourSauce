@@ -1,6 +1,6 @@
-#' @title wesanderson
-#' @name wesanderson
+#' @title ColourSauce
+#' @name ColourSauce
 #' @docType package
-#' @details list of palettes from Wes Anderson movies
-#' @description list of palettes from Wes Anderson movies
+#' @details list of palettes from the sauce
+#' @description list of palettes from the sauce
 NULL
