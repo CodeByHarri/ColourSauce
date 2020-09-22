@@ -37,11 +37,10 @@ devtools::install_github("CodeByHarri/ColourSauce")
 ## Usage
 
 ```{r, palettes_dummy}
-
-library("wesanderson")
+library("ColourSauce")
 
 # See all palettes
-names(wes_palettes)
+names(saucecolours)
 ```
 
 ## Palettes
