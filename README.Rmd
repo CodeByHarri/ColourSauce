@@ -55,7 +55,7 @@ A show case of the palettes by category of inspiration.
 </p>
 
 ```{r, memes}
-coloursauce("Spiderman")
+# coloursauce("Spiderman")
 ```
 
 
@@ -74,7 +74,7 @@ coloursauce("Spiderman")
 </p>
 
 ```{r, memes}
-coloursauce("TheOffice")
+# coloursauce("TheOffice")
 ```
 
 
@@ -82,19 +82,12 @@ coloursauce("TheOffice")
 
 <p align="center">
 ![](figure/gunshow.gif){#id .class width=100% height=100%}
-```{r, memes}
-coloursauce("")
-```
 </p>
-
 ```{r, memes}
-coloursauce("")
+# coloursauce("Gunshow")
 ```
 
 
-```{r, memes}
-coloursauce("")
-```
 
 #### The Simpsons (1994)
 <p align="center">
@@ -102,7 +95,7 @@ coloursauce("")
 </p>
 
 ```{r, memes}
-coloursauce("TheSimpsons")
+# coloursauce("TheSimpsons")
 ```
 
 
