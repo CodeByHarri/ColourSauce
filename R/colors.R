@@ -13,7 +13,14 @@ saucecolours <- list(
   CoolDarkLava = c("#463f3a", "#8a817c", "#bcb8b1", "#f4f3ee", "#e0afa0"),
   CoolSageBrown = c("#c9cba3", "#ffe1a8", "#e26d5c", "#723d46", "#472d30"),
   CoolBlueCopper = c("#11151c", "#212d40", "#364156", "#7d4e57", "#d66853"),
-  CoolShadowRose = c("#cebebe", "#ece2d0", "#d5b9b2", "#a26769", "#6d2e46")
+  CoolShadowRose = c("#cebebe", "#ece2d0", "#d5b9b2", "#a26769", "#6d2e46"),
+
+  TheSimpsons = c("#689D56", "#F0C902", "#CD5300", "#4959E7", "#A60900"),
+  Spiderman = c("#9F435A", "#DA1A1C", "#ab7c49", "#6F7098", "#2557C0"),
+  Spongebob = c("#CD4609", "#F5E51E", "#E3AD55", "#7378D3", "#2D8BC6"),
+  TheOffice = c("#5c3e2c", "#af8468", "#b59278", "#a3817b", "#9ca0b4"),
+  Gunshow = c("#8F974A", "#C1D940", "#E29820", "#FCD100", "#FAED02"),
+
 
 )
 
