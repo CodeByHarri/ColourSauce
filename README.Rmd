@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 
 > Does picking the right colours stress you? No worries mate, I got you!
 
-These are are some hand picked colour palettes I've chosen to spice them boring plots to something everyone can get around! This package was inspired by the [WesAnderson package](https://github.com/karthik/wesanderson) which derived it's colour palette from the amazing Tumblr blog [Wes Anderson Palettes.](http://wesandersonpalettes.tumblr.com/)
+These are some hand picked colour palettes I've chosen to spice them boring plots to something everyone can get around! This package was inspired by the [WesAnderson package](https://github.com/karthik/wesanderson) which derived it's colour palette from the amazing Tumblr blog [Wes Anderson Palettes.](http://wesandersonpalettes.tumblr.com/)
 
 
 ## Installation

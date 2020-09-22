@@ -14,7 +14,7 @@ It’s thick, hard to move.*
 
 > Does picking the right colours stress you? No worries mate, I got you!
 
-These are are some hand picked colour palettes I’ve chosen to spice them
+These are some hand picked colour palettes I’ve chosen to spice them
 boring plots to something everyone can get around! This package was
 inspired by the [WesAnderson
 package](https://github.com/karthik/wesanderson) which derived it’s
