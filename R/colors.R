@@ -1,9 +1,9 @@
 #' Complete list of palettes
 #'
-#' Use \code{\link{wes_palette}} to construct palettes of desired length.
+#' Use \code{\link{cs_palette}} to construct palettes of desired length.
 #'
 #' @export
-wes_palettes <- list(
+cs_palettes <- list(
   BottleRocket1 = c("#A42820", "#5F5647", "#9B110E", "#3F5151", "#4E2A1E", "#550307", "#0C1707"),
   BottleRocket2 = c("#FAD510", "#CB2314", "#273046", "#354823", "#1E1E1E"),
   Rushmore1 = c("#E1BD6D", "#EABE94", "#0B775E", "#35274A" ,"#F2300F"),
@@ -57,10 +57,10 @@ wes_palettes <- list(
 #' # colours
 #' pal <- wes_palette(21, name = "Zissou1", type = "continuous")
 #' image(volcano, col = pal)
-wes_palette <- function(name, n, type = c("discrete", "continuous")) {
+cs_palette <- function(name, n, type = c("discrete", "continuous")) {
   type <- match.arg(type)
 
-  pal <- wes_palettes[[name]]
+  pal <- cs_palettes[[name]]
   if (is.null(pal))
     stop("Palette not found.")
 
