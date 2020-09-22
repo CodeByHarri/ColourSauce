@@ -62,7 +62,7 @@ coloursauce("Spiderman")
 
 #### Spongebob (1999)
 <p align="center">
-![](figure/spongebob.gif){#id .class width=100% height=100%}
+![](figure/spongebob.gif){#id .class width=480 height=264}
 </p>
 
 ```{r, memes2}
@@ -72,7 +72,7 @@ coloursauce("Spongebob")
 
 #### The Office (2005)
 <p align="center">
-![](figure/theoffice.jpg){#id .class width=100% height=100%}
+![](figure/theoffice.jpg){#id .class width=480 height=264}
 </p>
 
 ```{r, memes3}
@@ -83,7 +83,7 @@ coloursauce("TheOffice")
 #### Gunshow (2013)
 
 <p align="center">
-![](figure/gunshow.gif){#id .class width=100% height=100%}
+![](figure/gunshow.gif){#id .class width=480 height=264}
 </p>
 ```{r, memes4}
 coloursauce("Gunshow")
@@ -93,7 +93,7 @@ coloursauce("Gunshow")
 
 #### The Simpsons (1994)
 <p align="center">
-![](figure/bart.gif){#id .class width=150% height=100%}
+![](figure/bart.gif){#id .class width=480 height=264}
 </p>
 
 ```{r, memes5}
