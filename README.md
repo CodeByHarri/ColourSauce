@@ -3,7 +3,7 @@
 ColourSauce: Colours From The Sauce
 ===================================
 
-*You buy you some orange juice, how long’s that going to last in your
+*You buy some orange juice, how long’s that going to last in your
 fridge? Couple days, maybe? That’s the juice. How long does BBQ sauce
 last in your fridge? A while. That’s the sauce, man. It sticks around.
 It’s thick, hard to move.*
