@@ -3,18 +3,16 @@
 ColourSauce: Colours From The Sauce
 ===================================
 
-<p align="center">
-
 *You buy you some orange, how long’s that going to last in your fridge?
 Couple days, maybe? That’s the juice. How long does BBQ sauce last in
 your fridge? A while. That’s the sauce, man. It sticks around. It’s
 thick, hard to move.*
 
+<p align="center">
 <img src="figure/kermit.gif" id="id" class="class" style="width:150.0%;height:100.0%" />
+</p>
 
 > Does picking the right colours stress you? No worries mate, I got you!
-
-</p>
 
 These are are some hand picked colour palettes I’ve chosen to spice them
 boring plots to something everyone can get around! This package was
@@ -34,82 +32,102 @@ Usage
 -----
 
 ``` r
-
-library("wesanderson")
+library("ColourSauce")
 
 # See all palettes
-names(wes_palettes)
-#>  [1] "BottleRocket1"  "BottleRocket2"  "Rushmore1"      "Rushmore"      
-#>  [5] "Royal1"         "Royal2"         "Zissou1"        "Darjeeling1"   
-#>  [9] "Darjeeling2"    "Chevalier1"     "FantasticFox1"  "Moonrise1"     
-#> [13] "Moonrise2"      "Moonrise3"      "Cavalcanti1"    "GrandBudapest1"
-#> [17] "GrandBudapest2" "IsleofDogs1"    "IsleofDogs2"
+names(saucecolours)
+#>  [1] "CoolRdBu"       "CoolHeat"       "CoolContrast1"  "CoolContrast2" 
+#>  [5] "CoolCocoa"      "CoolGnRd"       "CoolDarkLava"   "CoolSageBrown" 
+#>  [9] "CoolBlueCopper" "CoolShadowRose"
 ```
 
 Palettes
 --------
 
-### Bottle Rocket (1996)
+A show case of the palettes by category of inspiration
+
+-   My top 10 favourites from
+    [coolors.co](https://coolors.co/palettes/popular)
+
+### coolors.co
 
 ``` r
-wes_palette("BottleRocket1")
+coloursauce("CoolRdBu")
 ```
 
 ![](figure/bottlerocket1-1.png)
 
 ``` r
-wes_palette("BottleRocket2")
+coloursauce("CoolHeat")
 ```
 
 ![](figure/bottlerocket1-2.png)
 
-### Rushmore (1998)
-
 ``` r
-wes_palette("Rushmore1")
+coloursauce("CoolContrast1")
 ```
 
-![](figure/rushmore-1.png)
-
-### The Royal Tenenbaums (2001)
+![](figure/bottlerocket1-3.png)
 
 ``` r
-wes_palette("Royal1")
+coloursauce("CoolContrast2")
 ```
 
-![](figure/royal-1.png)
+![](figure/bottlerocket1-4.png)
 
 ``` r
-wes_palette("Royal2")
+coloursauce("CoolCocoa")
 ```
 
-![](figure/royal-2.png)
+![](figure/bottlerocket1-5.png)
+
+``` r
+coloursauce("CoolGnRd")
+```
+
+![](figure/bottlerocket1-6.png)
+
+``` r
+coloursauce("CoolDarkLava")
+```
+
+![](figure/bottlerocket1-7.png)
+
+``` r
+coloursauce("CoolSageBrown")
+```
+
+![](figure/bottlerocket1-8.png)
+
+``` r
+coloursauce("CoolBlueCopper")
+```
+
+![](figure/bottlerocket1-9.png)
+
+``` r
+coloursauce("CoolShadowRose")
+```
+
+![](figure/bottlerocket1-10.png)
 
 ``` r
 library("ggplot2")
 ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
-  scale_fill_manual(values = wes_palette("Royal1"))
+  scale_fill_manual(values = coloursauce("CoolDarkLava"))
 ```
 
 ![](figure/ggplot1-1.png)
 
-### The Life Aquatic with Steve Zissou (2004)
-
 ``` r
-wes_palette("Zissou1")
-```
-
-![](figure/lifeaquatic-1.png)
-
-``` r
-pal <- wes_palette("Zissou1", 21, type = "continuous")
+pal <- coloursauce("CoolHeat", 21, type = "continuous")
 image(volcano, col = pal)
 ```
 
 ![](figure/volcano-1.png)
 
 ``` r
-pal <- wes_palette("Zissou1", 100, type = "continuous")
+pal <- coloursauce("CoolHeat", 100, type = "continuous")
 # heatmap is a local dataset
 ggplot(heatmap, aes(x = X2, y = X1, fill = value)) +
   geom_tile() + 
@@ -120,89 +138,3 @@ ggplot(heatmap, aes(x = X2, y = X1, fill = value)) +
 ```
 
 ![](figure/zissou_heatmap-1.png)
-
-### The Darjeeling Limited (2007)
-
-``` r
-wes_palette("Darjeeling1")
-```
-
-![](figure/darjeeling-1.png)
-
-``` r
-wes_palette("Darjeeling2")
-```
-
-![](figure/darjeeling-2.png)
-
-### Hotel Chevalier (2007)
-
-``` r
-wes_palette("Chevalier1")
-```
-
-![](figure/chevalier-1.png)
-
-### Fantastic Mr. Fox (2009)
-
-``` r
-wes_palette("FantasticFox1")
-```
-
-![](figure/fantasticfox-1.png)
-
-### Moonrise Kingdom (2012)
-
-``` r
-wes_palette("Moonrise1")
-```
-
-![](figure/moonrise-1.png)
-
-``` r
-wes_palette("Moonrise2")
-```
-
-![](figure/moonrise-2.png)
-
-``` r
-wes_palette("Moonrise3")
-```
-
-![](figure/moonrise-3.png)
-
-### Castello Cavalcanti (2013)
-
-``` r
-wes_palette("Cavalcanti1")
-```
-
-![](figure/castello-1.png)
-
-### The Grand Budapest Hotel (2014)
-
-``` r
-wes_palette("GrandBudapest1")
-```
-
-![](figure/grandbudapest-1.png)
-
-``` r
-wes_palette("GrandBudapest2")
-```
-
-![](figure/grandbudapest-2.png)
-
-### The Isle of Dogs (2018)
-
-``` r
-wes_palette("IsleofDogs1")
-```
-
-![](figure/isleofdogs-1.png)
-
-``` r
-wes_palette("IsleofDogs2")
-```
-
-![](figure/isleofdogs-2.png)
