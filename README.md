@@ -1,12 +1,14 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-Wes Anderson Palettes
-=====================
 
-[![Build
-Status](https://travis-ci.org/karthik/wesanderson.png)](https://travis-ci.org/karthik/wesanderson)  
-![CRAN Downloads](http://cranlogs.r-pkg.org/badges/wesanderson)
+ColourSauce: Colours From The Sauce
+===================================
 
-![](rushmore.jpg)
+<iframe src="https://giphy.com/embed/Lcn0yF1RcLANG" width="480" height="361" frameBorder="0" class="giphy-embed" allowFullScreen>
+</iframe>
+<p>
+<a href="https://giphy.com/gifs/food-ahead-upcoming-Lcn0yF1RcLANG">via
+GIPHY</a>
+</p>
 
 > I saved you from boring plots. What did you ever do? - Max Fischer
 > (probably)
