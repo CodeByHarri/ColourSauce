@@ -45,9 +45,12 @@ names(saucecolours)
 Palettes
 --------
 
-A show case of the palettes by category of inspiration.
+A show case of the palettes fresh from the sauce!
 
-> *Memes & Movies*
+Split into categories of inspiration: 1. *Memes & Movies* 2. *Serious
+Data Analysis*
+
+Let’s start with some memes!
 
 #### Spiderman (1967)
 
@@ -112,7 +115,7 @@ coloursauce("TheSimpsons")
 My top 10 favourites from
 [coolors.co](https://coolors.co/palettes/popular)
 
-### coolors.co
+### Serious Data Analysis ft. coolors.co
 
 ``` r
 coloursauce("CoolRdBu")
