@@ -45,46 +45,43 @@ names(saucecolours)
 
 ## Palettes
 
-### Bottle Rocket (1996)
+A show case of the palettes by category of inspiration
+
+- My top 10 favourites from [coolors.co](https://coolors.co/palettes/popular)
+
+### coolors.co
 
 ```{r, bottlerocket1}
-wes_palette("BottleRocket1")
-wes_palette("BottleRocket2")
+coloursauce("CoolRdBu")
+coloursauce("CoolHeat")
+coloursauce("CoolContrast1")
+coloursauce("CoolContrast2")
+coloursauce("CoolCocoa")
+coloursauce("CoolGnRd")
+coloursauce("CoolDarkLava")
+coloursauce("CoolSageBrown")
+coloursauce("CoolBlueCopper")
+coloursauce("CoolShadowRose")
+
 ```
 
-### Rushmore (1998)
-
-```{r, rushmore}
-wes_palette("Rushmore1")
-```
-
-### The Royal Tenenbaums (2001)
-
-```{r, royal}
-wes_palette("Royal1")
-wes_palette("Royal2")
-```
 
 ```{r, ggplot1, fig.height = 3}
 library("ggplot2")
 ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  geom_bar() +
-  scale_fill_manual(values = wes_palette("Royal1"))
+  scale_fill_manual(values = coloursauce("CoolDarkLava"))
 ```
 
-### The Life Aquatic with Steve Zissou (2004)
 
-```{r, lifeaquatic}
-wes_palette("Zissou1")
-```
 
 
 ```{r, volcano, fig.height = 3}
-pal <- wes_palette("Zissou1", 21, type = "continuous")
+pal <- coloursauce("CoolHeat", 21, type = "continuous")
 image(volcano, col = pal)
 ```
 
 ```{r, zissou_heatmap, fig.height = 3}
-pal <- wes_palette("Zissou1", 100, type = "continuous")
+pal <- coloursauce("CoolHeat", 100, type = "continuous")
 # heatmap is a local dataset
 ggplot(heatmap, aes(x = X2, y = X1, fill = value)) +
   geom_tile() + 
@@ -94,52 +91,6 @@ ggplot(heatmap, aes(x = X2, y = X1, fill = value)) +
   coord_equal() 
 ```
 
-### The Darjeeling Limited (2007)
 
-```{r, darjeeling}
-wes_palette("Darjeeling1")
-wes_palette("Darjeeling2")
-```
-
-### Hotel Chevalier (2007)
-
-```{r, chevalier}
-wes_palette("Chevalier1")
-```
-
-### Fantastic Mr. Fox (2009)
-
-```{r, fantasticfox}
-wes_palette("FantasticFox1")
-```
-
-### Moonrise Kingdom (2012)
-
-```{r, moonrise}
-wes_palette("Moonrise1")
-wes_palette("Moonrise2")
-wes_palette("Moonrise3")
-```
-
-### Castello Cavalcanti (2013)
-
-```{r, castello}
-wes_palette("Cavalcanti1")
-```
-
-### The Grand Budapest Hotel (2014)
-
-```{r, grandbudapest}
-wes_palette("GrandBudapest1")
-wes_palette("GrandBudapest2")
-```
-
-
-### The Isle of Dogs (2018)
-
-```{r, isleofdogs}
-wes_palette("IsleofDogs1")
-wes_palette("IsleofDogs2")
-```
 
 
